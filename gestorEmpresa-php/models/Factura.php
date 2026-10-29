@@ -15,7 +15,7 @@ class Factura{
     public function getUsuario(){
         return User::getUserById($this->id_usuario);
     }
-    public function getPresupuerto(){
+    public function getPresupuesto(){
         return Presupuesto::getPresupuestoById($this->id_presupuesto);
     }
     public function getFecha(){
