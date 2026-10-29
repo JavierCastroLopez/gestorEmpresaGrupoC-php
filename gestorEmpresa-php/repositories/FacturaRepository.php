@@ -1,4 +1,5 @@
-<? class FacturaRepository{
+<?php
+class FacturaRepository{
     public function getAllFacturas(){
         $db=DB::connect();
         $q="select * from factura";
